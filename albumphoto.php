@@ -1,4 +1,6 @@
+//還要修改
 <?php
+
 require 'dbfunction.php';
 $connection=new dbfunction();
 $foldernm = $_GET["album_name"];

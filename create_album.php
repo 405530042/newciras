@@ -98,9 +98,6 @@ require './htmltemp/_navbar.php' //for navigation bar 最新消息....
                 $id=$_GET['delete_id'];
                 $name=$_GET['delete_name'];
                 $connection->delete('folder','folder_id = :folder_id',array('folder_id'=>$id));
-                //rmdir("upload/".$name);
-                $FileDir="upload/album/".$name."/";
-                //header('Location:create_album.php');
             }
 
               ?>
